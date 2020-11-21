@@ -49,3 +49,8 @@
 [user]
 	email = thomas@pietschi.com
 	name = Thomas Pietschmann
+[http]
+	sslCAinfo = /etc/ssl/certs/ca-certificates.crt~
+	sslVerify = false
+[url "ssh://git@heroku.com/"]
+	insteadOf = https://git.heroku.com/
